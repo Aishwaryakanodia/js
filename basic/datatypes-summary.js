@@ -41,3 +41,34 @@ const myFunction = function()
 }
 
 console.log(typeof myFunction)
+
+
+// Stack(Primitive)
+// Heap(Non-Primitive)
+
+
+let myYoutubename =  "aishkanodia@gmail.com"
+let anothername = myYoutubename
+console.log(anothername)
+anothername = "chai aur code"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+
+// in primitive copy of value is passed 
+
+
+let userOne = 
+{
+    email : "aish@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "aishwarya@gmail.com"
+
+console.log(userOne.email)
+
+// in heap reference is madxe i.e. change is in original value
